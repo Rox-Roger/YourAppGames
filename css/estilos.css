@@ -1,0 +1,146 @@
+{
+	margin:0;
+	padding:0;
+}
+
+body {
+	background:#DFF5EC;
+}
+
+header, .main, footer {
+	background:#DFF5EC;
+	width: 90%;
+	max-width:1000px;
+	margin:20px auto;
+}
+
+header h1{
+	background:#F8FE4C;
+	padding:10px 0px;
+	text-align:center;
+}
+
+.navegacion{
+	width: 1000px;
+	margin:20px auto;
+	background:#0025A3;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #3FFF59;
+	font-family: "Arial Black";
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	background:#FF4F4F;
+	transition: all .3s;
+}
+
+/*submenu*/
+
+.submenu1{
+	position: absolute;
+	background:#333333;
+	width: 200%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu1 li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: "Open sans";
+	text-decoration: none;
+}
+
+.menu li:hover .submenu1{
+	visibility: visible;
+	opacity: 1;
+}
+
+.submenu2{
+	position: absolute;
+	background:#333333;
+	width: 200%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu2 li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: "Open sans";
+	text-decoration: none;
+}
+
+.menu li:hover .submenu2{
+	visibility: visible;
+	opacity: 1;
+}
+
+.submenu3{
+	position: absolute;
+	background:#333333;
+	width: 200%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu3 li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: "Open sans";
+	text-decoration: none;
+}
+
+.menu li:hover .submenu3{
+	visibility: visible;
+	opacity: 1;
+}
+
+.main .articles{
+	width:68.5%;
+	margin-right:1.5%;
+	float:left;
+	background:#DFF5EC;
+}
+
+.main .articles article{
+	padding:20px;
+	background:#ECE3EB;
+	margin-bottom: 20px;
+}
+
+aside{
+	width:30%;
+	background:#FFD7FC;
+	float:left;
+	padding:20px;
+	box-sizing:border-box;
+}
+
+footer{
+	background:#000;
+	color:#fff;
+	clear:both;
+	padding:10px 0px;
+	text-align:center;
+}
